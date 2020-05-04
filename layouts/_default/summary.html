@@ -21,6 +21,12 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		{{ .Summary }}
+		{{ if .Truncated }}
+      <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+      <div>
+        <a style="display: block;text-align: right;" href="{{ .RelPermalink }}">Read More…</a>
+      </div>
+      {{ end }}
 	</div>
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
