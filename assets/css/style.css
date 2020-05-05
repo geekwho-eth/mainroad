@@ -77,16 +77,16 @@ body {
 }
 
 .primary {
-	-webkit-flex: 1 0 65.83%;
-	flex: 1 0 65.83%;
+	-webkit-flex: 1 0 61.8%;
+	flex: 1 0 61.8%; /*gold rule*/
 	-webkit-order: 1;
 	order: 1;
 	min-width: 0;
 }
 
 .sidebar {
-	-webkit-flex: 1 0 31.66%;
-	flex: 1 0 31.66%;
+	-webkit-flex: 1 0 35.7%;
+	flex: 1 0 35.7%; /*gold rule 38.2 - 2.5 = 35.7*/
 	-webkit-order: 2;
 	order: 2;
 	min-width: 0;
